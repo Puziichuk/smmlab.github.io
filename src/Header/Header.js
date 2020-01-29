@@ -1,5 +1,8 @@
 import React from 'react'
 
+
+import logo from './Logo/logo.jpg'
+
 const Header =()=>{
 	return (
 <header className="header">
@@ -40,16 +43,17 @@ const Header =()=>{
                     </li>	
                     </ul>
 					</nav>
-				</div>
+					</div>
 			<div className="row">
 			<div className="col-md-2">
 							<div className="logo">
-						<a href=""><img src="logo.jpg"></img></a></div>
+						<a href=""><img src={logo}></img></a></div>
 				
 					</div>
 				</div>
 			</div>
-		</div>
+			</div>
+	
 		
 	</header>
     )

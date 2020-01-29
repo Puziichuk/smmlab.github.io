@@ -1,5 +1,6 @@
 import React from 'react'
 
+import work from './Image/work.jpg'
 
 const Main =()=>{
 	return (
@@ -7,22 +8,24 @@ const Main =()=>{
 		<div className ="text">
 			<div className="mainborder">
        <span>Эффективное продвижение
-	 <br> 
+	<br>
 	вашего бизнеса в соцсетях
-    </br>
+	</br>
 </span>
-		<ul>
-			<li>
-			Формирование потока новых клиентов</li>
-			<li>
-			Повышение узнаваемости бренда</li>
-			<li> 
-			Постоянная коммуникация с клиентами</li>
+</div>
+</div>
+
+<ul>
+<li>Формирование потока новых клиентов</li>
+<li>Повышение узнаваемости бренда</li>
+<li> Постоянная коммуникация с клиентами</li>
 </ul>
+
 		<center><button onclick="show('block')" className="onlineapplication">Онлайн заявка</button></center>
 			<div onclick="show('none')" id="gray"></div>
 		<div id="window">
-			<img className="close "src="images/close.png" onclick="show('none')">
+			<img className="close "src="images/close.png" onclick="show('none')"> </img>
+			</div>
 		<div className="form">
 			<form action="index.html">
 		<input type="text" placeholder="Ваше имя" className="input"></input>
@@ -30,9 +33,6 @@ const Main =()=>{
 		<input type="submit" value="Перезвоните мне" className="submit"></input>	
 	</form>
 	</div>
-
-    
-
 
 <div className="soc">
     <div className="name3">
@@ -43,9 +43,7 @@ const Main =()=>{
 			<div className="row">
 				<div className="col-md-3">
 					<div className="social">
-						<a href="">
-							<img src="images/s1.png"></img>		
-						</a>
+						<a href=""><img src="images/s1.png"></img></a>
 				</div>
 				<div><p className="name5">Рост продаж своего <br> бизнеса</br></p></div>
 			</div>
@@ -99,7 +97,7 @@ const Main =()=>{
 	<div className="col-md-4">
 		<div className="work">
 						<a href="">
-							<img src="images/work.jpg"></img>	
+							<img src={work}></img>	
 						</a>
 				</div>
 			</div>
@@ -602,7 +600,7 @@ const Main =()=>{
     <div className="name10"> 
     Ваших клиентов пользуются 
 <br>
- социальными сетями
+ социальными сетями </br>
 <div className="client">
 <p>Воспользуйтесь услугой продвижения бизнеса</p>
 <p>в социальных сетях и получите поток новых клиентов</p>
@@ -614,7 +612,7 @@ const Main =()=>{
 			<div className="row">
 				<div className="col-md-5">
 					<div className="t2">
-						<a href=""><img src="images/c1.png"></img>	</a>
+						<a href=""><img src="images/c1.png"></img></a>
 				</div>
 				<div><p className="name6">+38(093) 788-98-98</p></div>
 			</div>
@@ -641,11 +639,6 @@ const Main =()=>{
 </div>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>	
-</div>			
     </main>
 )
 }
