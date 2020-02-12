@@ -7,12 +7,7 @@ const Main =()=>{
 <main className="main">
 		<div className ="text">
 			<div className="mainborder">
-       <span>Эффективное продвижение
-	<br>
-	вашего бизнеса в соцсетях
-	</br>
-</span>
-</div>
+       Эффективное продвижение вашего бизнеса в соцсетях</div>
 </div>
 
 <ul>
@@ -23,9 +18,7 @@ const Main =()=>{
 
 		<center><button onclick="show('block')" className="onlineapplication">Онлайн заявка</button></center>
 			<div onclick="show('none')" id="gray"></div>
-		<div id="window">
-			<img className="close "src="images/close.png" onclick="show('none')"> </img>
-			</div>
+		
 		<div className="form">
 			<form action="index.html">
 		<input type="text" placeholder="Ваше имя" className="input"></input>
@@ -45,8 +38,8 @@ const Main =()=>{
 					<div className="social">
 						<a href=""><img src="images/s1.png"></img></a>
 				</div>
-				<div><p className="name5">Рост продаж своего <br> бизнеса</br></p></div>
-			</div>
+				<div className="name5">Рост продаж своего  бизнеса<div/>
+
 			<div className="row">
 				<div className="col-md-3">
 					<div className="social">
@@ -54,8 +47,7 @@ const Main =()=>{
 							<img src="images/s2.png"></img>
 						</a>
 				</div>
-				<div><p className="name4">Стимулирования <br> повторных продаж</br></p></div>
-			</div>
+				<div className="name4">Стимулирования повторных продаж<div/>
 			<div className="row">
 				<div className="col-md-3">
 					<div className="social">
@@ -63,7 +55,7 @@ const Main =()=>{
 							<img src="images/s3.png"></img>
 						</a>
 				</div>
-				<div><p className="name4">Получение обратной <br>связи от существующих</br><br> клиентов</br></p></div>
+				<div className="name4">Получение обратной связи от существующих клиентов</div>
 			</div>
 			<div className="row">
 				<div className="col-md-3">
@@ -72,13 +64,12 @@ const Main =()=>{
 							<img src="images/s4.png"></img>
 						</a>
 				</div>
-				<div><p className="name4">Повышение лояльности <br>целевой аудитории к</br> <br>бренду</br></p></div>
+				<div className="name4">Повышение лояльности целевой аудитории к бренду</div>
 			</div>
 			</div>
 		</div>
 		</div>
-	</div>
-</div>
+		</div>
 		</div>
 <div className="now">
 			<div className="name3">ПОЧЕМУ МЫ?</div>
@@ -285,8 +276,6 @@ const Main =()=>{
 </div>
 </div>
 	</div>
-
-
 			<div className="soc">
 			<div className="container">
 			<div className="row">
@@ -598,9 +587,7 @@ const Main =()=>{
 	<div className="soc">
 		<div className="percent">74%</div>
     <div className="name10"> 
-    Ваших клиентов пользуются 
-<br>
- социальными сетями </br>
+    Ваших клиентов пользуются социальными сетями </div>
 <div className="client">
 <p>Воспользуйтесь услугой продвижения бизнеса</p>
 <p>в социальных сетях и получите поток новых клиентов</p>
@@ -639,7 +626,11 @@ const Main =()=>{
 </div>
 </div>
 </div>
-    </main>
+</div>
+</div>
+</div>
+</div>
+  </main>
 )
 }
 
