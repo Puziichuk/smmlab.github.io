@@ -437,3 +437,28 @@ body{
 .t2{
 	padding: 40px;
 }
+.product-quantity button{
+    width:30px;
+    height: 30px;
+    cursor:pointer;
+    background-color: grey;
+    border:none;
+    color:white;
+
+}
+
+.product-quantity input{
+    text-align: center;
+    height: 30px;
+}
+
+.product-quantity button:hover{
+   
+   background-color: black;
+   color:white;
+}
+
+.product-quantity{
+    text-align: center;
+}
+
